@@ -28,7 +28,7 @@ class LibcSearcher:
             }
         }
         headers = {'Content-Type': 'application/json'}
-        self.libc_list = requests.post(url=f"{self.api}/api/find", headers=headers, data=json.dumps(data)).json()
+        self.libc_list = requests.post(url="{}/api/find".format(self.api), headers=headers, data=json.dumps(data)).json()
 
     def show(self):
         if not self.libc_list:
