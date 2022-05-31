@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='LibcSearcherX',
@@ -11,6 +11,7 @@ setup(
     url='',
     description='Online Libc Searcher',
     packages=['LibcSearcherX'],
+    include_package_data=True,
     install_requires=['requests'],
     entry_points={
         'console_scripts': [
