@@ -1,6 +1,6 @@
 # LibcSearcherX
 
-LibcSearch for python3
+LibcSearcher for python3
 
 ## Build
 ```bash
