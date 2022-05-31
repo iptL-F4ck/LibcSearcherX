@@ -1,5 +1,7 @@
 # LibcSearcherX
 
+LibcSearch for python3
+
 ## Build
 ```bash
 python3 setup.py sdist
