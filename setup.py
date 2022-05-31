@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='LibcSearcherX',
-    version='0.0.1',
+    version='0.0.2',
     author='iptL',
     author_email='iptL_htb@163.com',
     url='',
